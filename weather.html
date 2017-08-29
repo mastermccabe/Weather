@@ -28,7 +28,7 @@ below and in the assignment. -->
           success: function(data) {
             console.log(data);
 
-            var farenheit = ((data.main.temp - 273.15) * 1.8) + 32;
+            var farenheit = ((data.main.temp - 273.15) * 1.8) + 32; //had to convert from kelvin to F
 
             var html = '<strong>' + $('#city').val() + '</strong>';
             html += '<ul>';
